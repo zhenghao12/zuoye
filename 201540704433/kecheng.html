@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
+  <link rel="stylesheet" href="theme.css" type="text/css"> </head>
+
+<body>
+  <div class="py-1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <form class="form-horizontal" role="form">
+            <div class="form-group form-row">
+              <label class="col-sm-2 col-form-label">课程编号*</label>
+              <input type="number" readonly="true" class="bg-info"> </div>
+            <div class="form-group form-row">
+              <label class="col-sm-2 col-form-label">课程名称*</label>
+              <input type="text"> </div>
+            <div class="form-group form-row">
+              <label class="col-sm-2 col-form-label">课程学分*</label>
+              <input type="number" class=""> </div>
+            <div class="form-group form-row">
+              <label class="col-sm-2 col-form-label">课程学时*</label>
+              <input type="number" class=""> </div>
+            <div class="form-group form-row">
+              <label class="col-sm-2 col-form-label">课程简介</label>
+              <textarea class="mx-1"></textarea>
+            </div>
+            <div class="form-group form-row">
+              <label class="col-sm-2 col-form-label">必修课</label>
+              <input type="radio" name="op1" value="op1" checked="" class="m-1">是
+              <input type="radio" name="op1" value="op2" class="m-1">否 </div>
+            <div class="form-group form-row">
+              <label class="col-sm-2 col-form-label">公选课</label>
+              <input type="radio" name="op2" value="op1" checked="" class="m-1">是
+              <input type="radio" name="op2" value="op2" class="m-1">否 </div>
+            <div class="form-group form-row">
+              <label class="col-sm-2 col-form-label">所属院系</label>
+              <select>
+                <option value="请选择">请选择</option>
+                <option value="文学院">文学院</option>
+                <option value="数软学院">数软学院</option>
+                <option value="物理学院">物理学院</option>
+                <option value="化学院">化学院</option>
+                <option value="医学院">医学院</option>
+              </select>
+            </div>
+            <div class="form-group form-row">
+              <label class="col-sm-2 col-form-label">所属专业</label>
+              <select>
+                <option value="请选择">请选择</option>
+                <option value="软件工程">软件工程</option>
+                <option value="计算机科学与技术">计算机科学与技术</option>
+                <option value="软件外包">软件外包</option>
+                <option value="大数据应用">大数据应用</option>
+              </select>
+            </div>
+            <div class="form-group form-row">
+              <label class="col-sm-2 col-form-label">教材封面</label>
+              <input type="file"> </div>
+            <button type="submit" class="w-100 bg-success">submit</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js" ></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</html>
